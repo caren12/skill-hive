@@ -1,1 +1,1 @@
-# skill-hub
+# skill-hive
