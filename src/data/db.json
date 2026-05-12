@@ -1,0 +1,10 @@
+{
+  "users": [],
+  "skills": [
+    {
+      "id": 1,
+      "title": "Graphic Design",
+      "owner": "Caren"
+    }
+  ]
+}
