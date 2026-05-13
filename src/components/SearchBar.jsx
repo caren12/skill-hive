@@ -4,7 +4,7 @@ function SearchBar({ onSearch, onFilter }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [category, setCategory] = useState('');
 
-  const categories = ['All', 'Programming', 'Music', 'Art', 'Cooking', 'Language', 'Fitness', 'Business'];
+  const categories = ['All', 'Programming', 'Music', 'Cooking', 'Language', 'Fitness', 'Business'];
 
   const handleSearchChange = (e) => {
     const value = e.target.value;
