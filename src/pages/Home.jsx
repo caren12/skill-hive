@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer.jsx"
 
 const HomePage = () => {
   const stats = [
@@ -9,6 +10,10 @@ const HomePage = () => {
   ];
 
   const [query, setQuery] = useState("");
+
+
+
+  
 
   return (
     <main>
@@ -81,7 +86,24 @@ const HomePage = () => {
 
         </div>
       </section>
+<section className="py-16 px-6 bg-white">
+      {/* Header */}
+      <div className="text-center mb-10">
+        <h2 className="text-3xl font-bold text-gray-900 mb-2">
+          Browse by Category
+        </h2>
+        <p className="text-gray-500 text-base">
+          Explore skills across various disciplines
+        </p>
+      </div>
+ 
+      </section>
+    
+    
+    <Footer/>
     </main>
+    
+    
   );
 };
 
