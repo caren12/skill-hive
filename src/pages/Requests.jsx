@@ -11,7 +11,7 @@ export default function Requests() {
     },
     {
       id: 2,
-      sender: "Densi Nela",
+      sender: "Densi Nela Chep",
       skill: "UI Design",
       status: "pending",
     },
